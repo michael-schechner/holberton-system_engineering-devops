@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | tail -n +4 | wc -l
+find . -mindepth 1 -type d | wc -l
