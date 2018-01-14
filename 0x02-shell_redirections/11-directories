@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | tail -n +4 | wc -l
+ls -lRa | tail -n +4 | wc -l
