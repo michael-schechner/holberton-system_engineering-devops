@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Chicago | tr -s [Cc] '\0'
+tr -s [Cc] '\0'
